@@ -13,8 +13,8 @@
 	<footer id="colophon" class="site-footer">
 		Copyright © 2019 | All Rights Reserved
 	</footer><!-- #colophon -->
-
 </div><!-- #End of Container  -->
+
 
 
 <?php wp_footer(); ?>

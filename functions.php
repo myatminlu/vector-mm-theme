@@ -44,7 +44,7 @@ if ( ! function_exists( 'vector_mm_theme_setup' ) ) :
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
-			'menu-1' => esc_html__( 'Primary', 'vector-mm-theme' ),
+			'primary' => esc_html__( 'Primary', 'vector-mm-theme' ),
 		) );
 
 		/*
@@ -156,6 +156,9 @@ require get_template_directory() . '/inc/template-functions.php';
  * Customizer additions.
  */
 require get_template_directory() . '/inc/customizer.php';
+
+// Register Custom Navigation Walker
+require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
 
 /**
  * Load Jetpack compatibility file.

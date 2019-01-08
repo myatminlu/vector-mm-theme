@@ -14,10 +14,8 @@
 
 get_header();
 ?>
+
 <div class="container">
-	<div class="alert alert-primary" role="alert">
-	This is a primary alert—check it out!
-</div>
 
 <?php
 if ( have_posts() ) :
